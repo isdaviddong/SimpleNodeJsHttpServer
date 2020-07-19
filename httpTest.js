@@ -12,5 +12,5 @@ function onRequest(req, res) {
 //createServer and listen
 http.createServer(onRequest).listen(5000);
 
-//
+//show message
 console.log("建立http service 在 5000 port...");
